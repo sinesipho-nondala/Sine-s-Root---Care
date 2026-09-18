@@ -556,3 +556,74 @@ nav a.active {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(184, 134, 11, 0.3);
 }
+
+/* ===== FIX CARD SPACING & OVERLAPPING ===== */
+/* Target your product cards container */
+.our-favourites,
+.products-section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Each individual card — add space BELOW */
+.favourite-card,
+.product-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 1.5rem; /* ✅ This creates space between cards */
+    box-shadow: 0 3px 10px rgba(107, 68, 35, 0.1);
+    border-left: 4px solid #D4AF37;
+}
+
+/* Make sure nothing gets cut off */
+.favourite-card h3,
+.product-card h3 {
+    margin: 0 0 0.5rem 0;
+    color: #6B4423;
+    font-size: 1.5rem;
+}
+
+.favourite-card p,
+.product-card p {
+    margin: 0 0 1.5rem 0;
+    color: #7A5C58;
+    font-size: 1.1rem;
+}
+
+/* Price button styling */
+.price-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #D4AF37, #B8860B);
+    color: white;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 0.5rem;
+}
+/* ===== NAVIGATION LINK COLOURS ===== */
+nav a {
+    color: #F5E8D0 !important; /* Light cream — bright & visible on dark brown */
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+/* Hover — when mouse moves over */
+nav a:hover {
+    background-color: rgba(212, 175, 55, 0.3); /* Soft gold glow */
+    color: #FFFFFF !important;
+}
+
+/* Active/current page — About Us stays highlighted */
+nav a.active {
+    background: linear-gradient(135deg, #D4AF37, #B8860B);
+    color: #FFFFFF !important;
+    font-weight: bold;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}

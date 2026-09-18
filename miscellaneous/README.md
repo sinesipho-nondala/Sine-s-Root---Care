@@ -86,3 +86,11 @@ about.html| About Us| Business story, mission, vision,values|Updated
 products.html| Products| Full product range, ingredients,pricing |Updated
 how-to-use.html | How to Use |Application instructions & hair care tips| Added||faqs.html| Contact Us| Enquiry form, contact details, social links| Updated| styles.css|
 Global styling, colors, layout, typography| Added
+
+
+## Reference
+stripe, 2025. How to start a hair business. [Online] 
+Available at: https://stripe.com/resources/more/how-to-start-a-hair-business
+[Accessed 4 August 2026].
+
+
