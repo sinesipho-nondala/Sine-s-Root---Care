@@ -32,7 +32,41 @@ Follow proper version control, file structure, and documentation standards.
 - Brand styling, colors applied, fonts
 - Week3: Full content added onto all pages, testing, fixing links + layout polish
 - Week4: Final updates + README completed + push
--------
+-------# 📝 Changelog
+
+All notable changes to the **Sine's Root & Care** website project.
+
+---
+
+##  Version 1.0 — 17 September 2026
+
+###  New Features Added
+- Complete **6-page website** structure: Home, About Us, Products, How to Use, FAQs, Contact
+-  **Custom brand identity** — logo, tagline, and warm earthy colour palette (chocolate brown, gold, cream)
+- **Original product line** — 6 natural hair care products using authentic African ingredients:
+  - Marula Growth Elixir
+  - Gold Shea Moisture Butter
+  - Rooibos Scalp Tonic
+  - Hibiscus Shine Rinse
+  - African Black Soap Shampoo
+  - Baobab Strength Leave-In
+-  **Product images** — custom visuals for every product
+-  **Responsive design** — works on phones, tablets, and computers
+-  **Interactive map** — embedded location for Contact page
+-  **FAQs page** — replaced Enquiry page with updated navigation links
+-  **CSS styling** — consistent layout, hover effects, product cards, gradient price tags
+
+### 🔧 Fixes & Improvements
+- Fixed broken navigation links across all pages
+- Corrected CSS file paths (`styles.css` linked properly)
+- Renamed `enquiry.html` → `faqs.html` and updated all references
+- Resolved file naming & folder structure issues
+- Added `styles.css` to GitHub repository
+- Set up Git identity & successfully pushed all files
+- Optimised image sizes and loading with `loading="lazy"`
+
+### 📁 Project Structure
+
 ## The Changes that I have made:
 After I have received my feedback from Part1 I ahd to make some major changes.
 Starting with my folder from Github. I had to make alot of changes in my index folder.
