@@ -417,3 +417,36 @@ footer a:hover {
     transform: scale(0.8);  /* ← 0.8 = 80% size; try 0.7 or 0.5 */
     transform-origin: top center;
 }
+/* ===== NAVIGATION & ACTIVE HIGHLIGHT ===== */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5D3A3A;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect — when mouse moves over */
+nav a:hover {
+    background-color: #F5E8D0;
+    color: #8B4513;
+}
+
+/* Active page — STAYS highlighted */
+nav a.active {
+    background: linear-gradient(135deg, #D4AF37, #B8860B);
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(139, 69, 19, 0.2);
+}
