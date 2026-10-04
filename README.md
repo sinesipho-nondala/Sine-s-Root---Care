@@ -8,7 +8,7 @@
 
 
 ## What is this about?
-This is the repsoitory for WEDE5020 ICE TASK 2. I have created a public GitHub repository, proper website folder, website structure and 5+ valid HTML pages as required:
+This is the reposity for WEDE5020 ICE TASK 2. I have created a public GitHub repository, proper website folder, website structure and 5+ valid HTML pages as required:
 - index.html(Home page)
 - about-us.html
 - contact-us.html
@@ -93,9 +93,10 @@ how-to-use.html | How to Use |Application instructions & hair care tips| Added||
 Global styling, colors, layout, typography| Added
 
 
-## Reference
-stripe, 2025. How to start a hair business. [Online] 
-Available at: https://stripe.com/resources/more/how-to-start-a-hair-business
-[Accessed 4 August 2026].
-
+## 📚 References
+- Stripe. 2025. *How to start a hair business*. [Online] Available at: https://stripe.com/resources/more/how-to-start-a-hair-business [Accessed 4 August 2026].
+- MDN Web Docs. *CSS Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed 4 Oct 2026].
+- MDN Web Docs. *File Paths*. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks [Accessed 4 Oct 2026].
+- GitHub Docs. *About READMEs*. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes [Accessed 4 Oct 2026].
+- IIE. WEDE5020 — Web Development Introduction Study Guide.
 
