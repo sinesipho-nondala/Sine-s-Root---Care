@@ -87,12 +87,13 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 **Target Audience:**Women aged 18-45 seeking accessible, natural hair care solutions with plans to expand and create local jobs.
 
 ## Website Structure & Pages
-|File Name|Page Title| Purpose|Status
-|index.html| Home| Brand introduction, welcome message, featured products|Updated|
-about.html| About Us| Business story, mission, vision,values|Updated
-products.html| Products| Full product range, ingredients,pricing |Updated
-how-to-use.html | How to Use |Application instructions & hair care tips| Added||faqs.html| Contact Us| Enquiry form, contact details, social links| Updated| styles.css|
-Global styling, colors, layout, typography| Added
+- `index.html` | Home | Brand introduction, welcome message, featured products | 
+- `pages/about-us.html` | About Us | Business story, mission, vision, values | 
+- `pages/products.html` | Products | Full product range, ingredients, pricing | 
+- `pages/how-to-use.html` | How to Use | Application instructions & hair care tips 
+- `pages/faqs.html` | FAQs | Common questions & answers 
+- `pages/contact-us.html` | Contact Us | Enquiry form, contact details, social links | 
+- `styles.css` | Global Styles | Colours, layout, typography 
 
 
 ## 📚 References
