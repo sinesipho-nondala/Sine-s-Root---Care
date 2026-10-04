@@ -91,7 +91,7 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 - `pages/about-us.html` | About Us | Business story, mission, vision, values | 
 - `pages/products.html` | Products | Full product range, ingredients, pricing | 
 - `pages/how-to-use.html` | How to Use | Application instructions & hair care tips 
-- `pages/faqs.html` | FAQs | Common questions & answers 
+- `pages/Enquiry.html` | Enquiry | Common questions & answers 
 - `pages/contact-us.html` | Contact Us | Enquiry form, contact details, social links | 
 - `styles.css` | Global Styles | Colours, layout, typography 
 
