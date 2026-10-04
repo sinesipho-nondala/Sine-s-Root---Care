@@ -80,10 +80,12 @@ Follow proper version control, file structure, and documentation standards.
 
 
 ## Project Overview
-This website is for "Sine's Root & Care", a locally owned natural hair care
-**Purpose:** To build a professional online presence that showcase products,shares the brand story, provides usage guidance, and enables customer enquiries.
+This website is for **Sine's Root & Care**, a locally owned natural hair care brand.
 
-**Target Audience:** Women aged 18-45 seeking accessilbe, natural hair care solutions with plans to expands and create local jobs.
+**Purpose:** To build a professional online presence that showcases products, shares the brand story, provides usage guidance, and enables customer enquiries.
+
+**Target Audience:**Women aged 18-45 seeking accessible, natural hair care solutions with plans to expand and create local jobs.
+
 ## Website Structure & Pages
 |File Name|Page Title| Purpose|Status
 |index.html| Home| Brand introduction, welcome message, featured products|Updated|
