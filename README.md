@@ -42,7 +42,7 @@ Follow proper version control, file structure, and documentation standards.
 - **Moved README.md to root folder** - now visible on main repository page
 - **Fixed CSS file paths** - pages in 'pages/'folder now use '../styles.css'.
 - **Added pseudo-classes** - ':hover', ':active', ':focus' states on navigation
-- **Verified responsive design** - media quesries at 768px (Tablet) & 480px (mobile)
+- **Verified responsive design** - media queries at 768px (Tablet) & 480px (mobile)
 - **Corrected file naming** - standardised 'about-us.html', 'contact-us.html'
 - **Updated references** - formatted properly with all sources.
 
