@@ -30,15 +30,23 @@ Follow proper version control, file structure, and documentation standards.
 - Week1: Repository setup + File structure created
 - Week2: Base HTML pages + navigation links built
 - Brand styling, colors applied, fonts
-- Week3: Full content added onto all pages, testing, fixing links + layout polish
-- Week4: Final updates + README completed + push
--------# 📝 Changelog
+- Week3: Brand styling, colours, fonts applied
+- Week4: Full content added onto all pages, testing, fixing links + layout polish
+- Week 5: Feedaback fixes, README completed, final push
 
-All notable changes to the **Sine's Root & Care** website project.
+
 
 ---
+## Changelog - Development History
+### Version 1.1 - October 2026 (Resubmission / Part 2 Improvements)
+- **Moved README.md to root folder** - now visible on main repository page
+- **Fixed CSS file paths** - pages in 'pages/'folder now use '../styles.css'.
+- **Added pseudo-classes** - ':hover', ':active', ':focus' states on navigation
+- **Verified responsive design** - media quesries at 768px (Tablet) & 480px (mobile)
+- **Corrected file naming** - standardised 'about-us.html', 'contact-us.html'
+- **Updated references** - formatted properly with all sources.
 
-##  Version 1.0 — 17 September 2026
+##  Version 1.0 — 17 September 2026 (Part 1)
 
 ###  New Features Added
 - Complete **6-page website** structure: Home, About Us, Products, How to Use, FAQs, Contact
@@ -64,16 +72,13 @@ All notable changes to the **Sine's Root & Care** website project.
 - Added `styles.css` to GitHub repository
 - Set up Git identity & successfully pushed all files
 - Optimised image sizes and loading with `loading="lazy"`
+- README.md inside 'miscellaneuos/' folder was moved to **root folder**
+- **Limited documentation** - expanded README with full changelog & refereances.
+-------
 
 ### 📁 Project Structure
 
-## The Changes that I have made:
-After I have received my feedback from Part1 I ahd to make some major changes.
-Starting with my folder from Github. I had to make alot of changes in my index folder.
-- Starting with the structure. 
-- Then I had to write new code.
 
-I went inside my Github repository and I had to reupload my index.html folder. The reason why I did this was because I could see the changes that I wrote in VS Code.
 ## Project Overview
 This website is for "Sine's Root & Care", a locally owned natural hair care
 **Purpose:** To build a professional online presence that showcase products,shares the brand story, provides usage guidance, and enables customer enquiries.
