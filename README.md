@@ -8,7 +8,7 @@
 
 
 ## What is this about?
-This is the reposity for WEDE5020 ICE TASK 2. I have created a public GitHub repository, proper website folder, website structure and 5+ valid HTML pages as required:
+This is the repository for WEDE5020 ICE TASK 2. I have created a public GitHub repository, proper website folder, website structure and 5+ valid HTML pages as required:
 - index.html(Home page)
 - about-us.html
 - contact-us.html
