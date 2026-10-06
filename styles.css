@@ -791,3 +791,60 @@ nav a.active {
     font-weight: bold;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
 }
+
+.email-button {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.9rem 2rem;
+            background: linear-gradient(135deg, #5D4037, #8D6E63);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+        .email-button:hover {
+            transform: translateY(-2px);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #5D4037;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.9rem;
+            border: 2px solid #D7CCC8;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, #8D6E63, #B8860B);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+        }
+        main {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        .page-intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }

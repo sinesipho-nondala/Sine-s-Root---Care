@@ -101,6 +101,11 @@
 
         <button type="submit" class="submit-btn">Send Message ✨</button>
     </form>
+    <!-- Custom Response -->
+    <div class="respoonse-box" id="responseBox" style="display: none;">
+        <h3>Thank you for reaching out!</h3>
+        <p id="responseText"></p>
+    </div>
 </section>
 
        
@@ -108,5 +113,49 @@
     <footer>
         <p>&copy; 2026 Sine's Root & Care. All rights reserved.</p>
     </footer>
+
+    <!--Validation & Custom Response Script-->
+    <script>
+      const form = document.getElementById('enquiryForm');
+        const responseBox = document.getElementById('responseBox');
+        const responseText = document.getElementById('responseText');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault(); // Stop page reload
+
+            // Get form values
+            const userName = document.getElementById('name').value;
+            const enquiryType = document.getElementById('enquiryType').value;
+
+            // Build custom response based on selection
+            let reply = '';
+            switch(enquiryType) {
+                case 'product':
+                    reply = `Hi ${userName}, thank you! Our products range from R95 to R185. Full ingredient details and prices are on our Products page. We'll send more info to your email within 24 hours.`;
+                    break;
+                case 'wholesale':
+                    reply = `Hello ${userName}! Wholesale pricing starts at 15% off for orders of 10+ items. Minimum order value: R500. We'll email you a full price list shortly.`;
+                    break;
+                case 'sponsorship':
+                    reply = `Hi ${userName}, we love partnering with amazing people! We review sponsorships on the 1st of each month. You'll hear from us within 3 working days.`;
+                    break;
+                case 'volunteer':
+                    reply = `Hello ${userName}! We're always growing our team. We have opportunities in product assembly and community outreach. An application form is on its way to your email today.`;
+                    break;
+                default:
+                    reply = `Thank you, ${userName}! We've received your message and will get back to you personally within 24–48 hours.`;
+            }
+
+            // Show response to user
+            responseText.textContent = reply;
+            responseBox.style.display = 'block';
+            
+            // Clear form
+            form.reset();
+        });
+    </script>
 </body>
 </html>
+
+
+    
