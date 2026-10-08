@@ -97,6 +97,7 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 
 -----
 ## PART 3
+------
 ## 📚 References
 - Stripe. 2025. *How to start a hair business*. [Online] Available at: https://stripe.com/resources/more/how-to-start-a-hair-business [Accessed 4 August 2026].
 - MDN Web Docs. *CSS Media Queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed 4 Oct 2026].
