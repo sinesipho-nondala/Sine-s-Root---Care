@@ -83,6 +83,7 @@ Follow proper version control, file structure, and documentation standards.
 - **Limited documentation** - expanded README with full changelog & refereances.
 - Added a Sitemap in README.md file
 - Uploaded the Budget for the website design.
+- Included Semetic elements and content tags.
 -------
 
 ### 📁 Project Structure
