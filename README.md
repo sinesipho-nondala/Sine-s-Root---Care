@@ -36,7 +36,14 @@ Follow proper version control, file structure, and documentation standards.
 
 
 
+
 ---
+## Budget:
+- **Domain registration:** R49 per year
+- **Website hosting:** R99/monthly
+- **Design & Development:** R2500 one-time cost
+- **Total:** R2648
+------------------
 ## Changelog - Development History
 ### Version 1.1 - October 2026 (Resubmission / Part 2 Improvements)
 - **Moved README.md to root folder** - now visible on main repository page
@@ -75,6 +82,7 @@ Follow proper version control, file structure, and documentation standards.
 - README.md inside 'miscellaneuos/' folder was moved to **root folder**
 - **Limited documentation** - expanded README with full changelog & refereances.
 - Added a Sitemap in README.md file
+- Uploaded the Budget for the website design.
 -------
 
 ### 📁 Project Structure
