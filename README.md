@@ -74,6 +74,7 @@ Follow proper version control, file structure, and documentation standards.
 - Optimised image sizes and loading with `loading="lazy"`
 - README.md inside 'miscellaneuos/' folder was moved to **root folder**
 - **Limited documentation** - expanded README with full changelog & refereances.
+- Added a Sitemap in README.md file
 -------
 
 ### 📁 Project Structure
@@ -85,6 +86,13 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 **Purpose:** To build a professional online presence that showcases products, shares the brand story, provides usage guidance, and enables customer enquiries.
 
 **Target Audience:**Women aged 18-45 seeking accessible, natural hair care solutions with plans to expand and create local jobs.
+## Sitemap
+- **Home Page:** Welcome message & brand introduction| Featured products/bestsellers|Quick links to key sections|Social media links
+-  **About Us:**Our story background| Business mission & values| Compliance & registration details| Our vision & community impact|
+- **Products:** Full product range| Product image| Ingredients & benefits| Pricing|
+- **Enquiry:** FAQs| Product information| Email section|
+- **Contact:** Contact form/order enquiry form| Business details| Social media links| Location & operating hours|
+- **How To Use:** Step-by-Step guidance| Application tips| Recommended routines|
 
 ## Website Structure & Pages
 - `index.html` | Home | Brand introduction, welcome message, featured products | 
