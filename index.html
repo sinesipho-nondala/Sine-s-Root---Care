@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sine's Root & Care</title>
+<meta name="description" content="Sine's Root & Care — Handmade natural hair care products. Made with love in South Africa. Growth oils, moisture butter, and scalp treatments for healthy, beautiful hair.">
+<meta name="keywords" content="natural hair care, South Africa, growth oil, moisture butter, scalp treatment, organic hair products, local brand">
+<title>Sine's Root & Care</title>
     <!--Create a CSS file-->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,7 +23,20 @@
                 <p>We deliver across South Africa within 3-5 business days. Orders are processed within 24 hours, and you'll receive a tracking number so you can follow your package every step of the way.</p>
             </div>
         </div>
+        <div class="accordian-item">
+            <h3 class="accordian-header">Can I use these on all hair types?</h3>
+            <div class="accordian-content">
+                <p>Absolutely! Our products are formulated to nourish and protect all hair types - from tightly coiled to wavy and straight. Whether your hair is relaxed, natural, or transitioning, you'll love the results. </p>
+            </div>
+        </div>
     </div>
+    <script>
+        document.querySelectorAll('.accordion-header') .forEach(header => {
+            header.addEventListener('click', () => {
+                header.nextElementSibling.classList.toggle('show');
+            });
+        });
+        </script>
 </section>
 <body>
     <!--Header Navigation-->
