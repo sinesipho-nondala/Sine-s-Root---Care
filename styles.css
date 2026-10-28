@@ -848,3 +848,50 @@ nav a.active {
             text-align: center;
             margin-bottom: 2rem;
         }
+/* ===== ACCORDION STYLES ===== */
+.accordion-header {
+  cursor: pointer;
+  padding: 15px 20px;
+  background: #f9f2eb;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: background 0.3s ease;
+}
+.accordion-header:hover { 
+  background: #f0e2d3; 
+}
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+}
+.accordion-content.show {
+  max-height: 300px;
+  padding: 10px 20px 20px;
+}
+
+/* ===== PRODUCT SEARCH STYLES ===== */
+.product-item {
+  padding: 20px;
+  margin: 15px 0;
+  background: #f9f2eb;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+.product-item.hidden { 
+  display: none; 
+}
+
+/* ===== LIGHTBOX GALLERY STYLES ===== */
+.gallery-thumb {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.gallery-thumb:hover {
+  transform: scale(1.05);
+}
