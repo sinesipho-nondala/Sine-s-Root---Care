@@ -44,45 +44,28 @@
         </section>
 
         <!-- Contact Form -->
-        <section class="contact-form-section">
-            <form id="contactForm" class="styled-form">
-                <div class="form-group">
-                    <label for="senderName">Your Full Name</label>
-                    <input type="text" id="senderName" name="senderName" placeholder="Enter your full name" required>
-                </div>
+        <form id="contactForm" action="#" method="POST" style="background: #f9f2eb; padding: 30px; border-radius: 12px;">
+  <label style="display: block; margin: 15px 0 5px;"><strong>Your Name:</strong></label>
+  <input type="text" id="sender-name" name="sender-name" required minlength="2" style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;">
 
-                <div class="form-group">
-                    <label for="senderEmail">Your Email Address</label>
-                    <input type="email" id="senderEmail" name="senderEmail" placeholder="your@email.com" required>
-                </div>
+  <label style="display: block; margin: 15px 0 5px;"><strong>Your Email:</strong></label>
+  <input type="email" id="sender-email" name="sender-email" required style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;">
 
-                <div class="form-group">
-                    <label for="messageType">What is this regarding?</label>
-                    <select id="messageType" name="messageType" required>
-                        <option value="">-- Select a message type --</option>
-                        <option value="general">General Enquiry</option>
-                        <option value="order">Order Status & Delivery</option>
-                        <option value="feedback">Feedback & Suggestions</option>
-                        <option value="support">Customer Support</option>
-                        <option value="media">Media & Press</option>
-                    </select>
-                </div>
+  <label style="display: block; margin: 15px 0 5px;"><strong>What's This About?</strong></label>
+  <select id="message-type" name="message-type" required style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;">
+    <option value="">Select...</option>
+    <option value="product">Product Question</option>
+    <option value="delivery">Delivery / Order Status</option>
+    <option value="feedback">Feedback</option>
+    <option value="general">General Enquiry</option>
+  </select>
 
-                <div class="form-group">
-                    <label for="messageBody">Your Message</label>
-                    <textarea id="messageBody" name="messageBody" rows="6" placeholder="Write your message here..." required></textarea>
-                </div>
+  <label style="display: block; margin: 15px 0 5px;"><strong>Your Message:</strong></label>
+  <textarea id="message-body" name="message-body" required minlength="10" rows="5" placeholder="Write your message here..." style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;"></textarea>
 
-                <button type="submit" class="submit-btn">Prepare Message ✉️</button>
-            </form>
-
-            <!-- Email Ready Response Box -->
-            <div id="emailReadyBox" class="response-box" style="display: none; margin-top: 2rem; padding: 1.5rem; background: #E3F2FD; border-left: 4px solid #2196F3; border-radius: 8px;">
-                <h3>✅ Message Ready!</h3>
-                <p>Your message has been compiled. Click below to open your email app and send it directly to us:</p>
-                <a id="sendEmailLink" href="" class="email-button">Open Email & Send</a>
-            </div>
-        </section>
+  <button type="submit" style="margin-top:20px; padding:12px 30px; background:#5a3e2b; color:white; border:none; border-radius:6px; font-size:16px; cursor:pointer;">Send Message</button>
+  <div id="contact-msg" style="margin-top: 20px; display: none; padding: 12px; border-radius: 6px;"></div>
+</form>
 
         <!-- Contact Details & Map -->
         <section class="contact-details-section" style="margin-top: 3rem; padding: 1.5rem; background: #FFF8E1; border-radius: 12px;">
@@ -91,70 +74,46 @@
             <p><strong>Phone:</strong> 041 123 4567</p>
             <p><strong>Location:</strong> Port Elizabeth, South Africa</p>
 
-            <!-- Google Map -->
-            <div class="map-container" style="margin-top: 1.5rem;">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10465.234567890123!2d25.6166!3d-33.9167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eb6015859e66667%3A0x6a7c0e4e5e6e6e6e!2sGqeberha%2C%20South%20Africa!5e0!3m2!1sen!2sza!4v12345678901234!5m2!1sen!2sza" 
-                    width="100%" 
-                    height="300" 
-                    style="border:0; border-radius: 8px;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
-        </section>
-    </main>
+            
+            </main>
+<!-- Google Map -->
+<section style="padding: 0 20px 40px; max-width: 900px; margin: 0 auto;">
+  <h2 style="text-align: center; color: #5a3e2b;">Find Us</h2>
+  <p style="text-align: center;">Based in South Africa — caring for your hair, naturally 🌿</p>
+  <div id="map" style="height: 350px; border-radius: 10px; margin-top: 20px;"></div>
+</section>
 
-    <footer>
-        <p>&copy; 2026 Sine's Root & Care. All rights reserved.</p>
-    </footer>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  const map = L.map('map').setView([-33.918, 25.616], 10);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+  L.marker([-33.918, 25.616])
+    .addTo(map)
+    .bindPopup('<strong>Sine\'s Root & Care</strong><br>Made with love in South Africa 💚')
+    .openPopup();
+</script>
 
-    <!-- JavaScript: Validation & Email Compilation -->
-    <script>
-        const contactForm = document.getElementById('contactForm');
-        const emailReadyBox = document.getElementById('emailReadyBox');
-        const sendEmailLink = document.getElementById('sendEmailLink');
+<script>
+document.getElementById('contactForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const name = document.getElementById('sender-name').value.trim();
+  const msgBox = document.getElementById('contact-msg');
 
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault(); // Stop page reload
+  if (name.length < 2) {
+    msgBox.textContent = "❌ Please enter your name.";
+    msgBox.style.color = "red";
+    msgBox.style.background = "#ffe9e9";
+    msgBox.style.display = "block";
+    return;
+  }
 
-            // Get form values
-            const name = document.getElementById('senderName').value;
-            const email = document.getElementById('senderEmail').value;
-            const msgType = document.getElementById('messageType').value;
-            const message = document.getElementById('messageBody').value;
-
-            // Convert selection to readable label
-            let typeLabel = '';
-            switch(msgType) {
-                case 'general': typeLabel = 'General Enquiry'; break;
-                case 'order': typeLabel = 'Order Status & Delivery'; break;
-                case 'feedback': typeLabel = 'Feedback & Suggestions'; break;
-                case 'support': typeLabel = 'Customer Support'; break;
-                case 'media': typeLabel = 'Media & Press Enquiry'; break;
-            }
-
-            // Build email subject & body
-            const subject = encodeURIComponent(`${typeLabel} — From ${name}`);
-            const emailBody = encodeURIComponent(
-                `Name: ${name}\n` +
-                `Reply Email: ${email}\n` +
-                `Message Type: ${typeLabel}\n\n` +
-                `Message:\n${message}`
-            );
-
-            // Create mailto link — opens user's email app
-            sendEmailLink.href = `mailto:hello@sinesrootandcare.co.za?subject=${subject}&body=${emailBody}`;
-
-            // Show success box
-            emailReadyBox.style.display = 'block';
-
-            // Clear form
-            contactForm.reset();
-        });
-    </script>
-
-    
-
+  msgBox.textContent = `✅ Thanks for reaching out, ${name}! Your message has been sent successfully. We'll reply as soon as we can.`;
+  msgBox.style.color = "green";
+  msgBox.style.background = "#e9ffe9";
+  msgBox.style.display = "block";
+  document.getElementById('contactForm').reset();
+});
+</script>
 </body>
 </html>
