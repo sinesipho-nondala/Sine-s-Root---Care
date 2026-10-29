@@ -110,6 +110,53 @@
     </ul>
 </section>
 </main>
+<!-- YOUR PRODUCTS SECTION ABOVE -->
+
+<!-- ✅ LIGHTBOX GALLERY GOES HERE -->
+<section class="gallery-section">
+  <h2>Our Product Gallery</h2>
+  <p>Click on an image to view it larger</p>
+  
+  <div class="gallery-grid">
+    <img src="assets/images/growth-oil.jpg" alt="Growth Oil — strengthens roots and encourages healthy growth" 
+         class="gallery-thumb" data-full="assets/images/growth-oil.jpg">
+    
+    <img src="assets/images/moisture-butter.jpg" alt="Moisture Butter — deep hydration that lasts all day" 
+         class="gallery-thumb" data-full="assets/images/moisture-butter.jpg">
+    
+    <img src="assets/images/scalp-treatment.jpg" alt="Scalp Treatment — soothes and nourishes from the first use" 
+         class="gallery-thumb" data-full="assets/images/scalp-treatment.jpg">
+  </div>
+</section>
+
+<!-- Lightbox Overlay -->
+<div id="lightbox" class="lightbox" style="display:none;">
+  <span id="close-lightbox" class="close-btn">&times;</span>
+  <img id="lightbox-image" src="" alt="Enlarged product view">
+</div>
+
+<script>
+const thumbs = document.querySelectorAll('.gallery-thumb');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-image');
+const closeBtn = document.getElementById('close-lightbox');
+
+thumbs.forEach(thumb => {
+  thumb.addEventListener('click', () => {
+    lightboxImg.src = thumb.dataset.full;
+    lightbox.style.display = 'flex';
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  lightbox.style.display = 'none';
+});
+
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) lightbox.style.display = 'none';
+});
+</script>
+
 
 <!--footer-->
 <footer>
