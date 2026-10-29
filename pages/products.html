@@ -219,6 +219,34 @@
             <!-- Add more product cards as needed -->
         </section>
     </main>
+    <!-- Lightbox Overlay -->
+<div id="lightbox" class="lightbox" style="display:none;">
+  <span id="close-lightbox" class="close-btn">&times;</span>
+  <img id="lightbox-image" src="" alt="Enlarged product view">
+</div>
+
+<script>
+const thumbs = document.querySelectorAll('.gallery-thumb');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightbox-image');
+const closeBtn = document.getElementById('close-lightbox');
+
+thumbs.forEach(thumb => {
+  thumb.addEventListener('click', () => {
+    lightboxImg.src = thumb.dataset.full;
+    lightbox.style.display = 'flex';
+  });
+});
+
+closeBtn.addEventListener('click', () => {
+  lightbox.style.display = 'none';
+});
+
+lightbox.addEventListener('click', (e) => {
+  if (e.target === lightbox) lightbox.style.display = 'none';
+});
+</script>
+
     <footer>
         <p>&copy; 2026 Sine's Root & Care. All rights reserved.</p>
     </footer>
