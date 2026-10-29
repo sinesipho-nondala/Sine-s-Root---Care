@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sinesipho-nondala.github.io/Sine-s-Root---Care/sitemap.xml
