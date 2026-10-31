@@ -116,7 +116,14 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 ## PART 3
 ------
 ### Changelog
-*26/10/2026*
+*31/10/2026*
+- Add changing updates for SEO improvements, products gallery, and form enhancements.
+- Update project title in README.md to reflect course name.
+- Move accordian script to footer for improvemed page load performance.
+- Add Leaflet and OpenStreetMap reference to README for mapping functionality.
+- Fix viewport meta tag and enhance FAQ section with accordian functionality
+
+*29/10/2026*
 - Add robots.txt and sitemap.xml for improved SEO and site indexing
 - Add product gallery section with lightbox functionality for enhaced user engagement .
 - Add lightbox gallery styles for enhancing image viewing experience.
@@ -130,6 +137,18 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 - Add FAQ section with accordian functionality to enhance user experience.
 - Refactor enquiry form for improved user experience and validation feedback 
 - Refactor contact form for enhanced user experience and validation feedback.
+
+## Contact.html:
+- An interactive map showing our location in Port Elizabeth with a custom marker and popup
+- Contact form validation that checks input and displays success/feedback messages without page reload
+- Form resets automatically after submission
+All features run in the user's browser without requiring a backend database"
+
+## Enquiry.html:
+- Form validation that checks name length and email format before submission
+- Custom success message that displays the user's name and selected enquiry type
+- Automatic form reset after successful submission
+- Interactive FAQ accordion that expands and collapses when clicked"
 ---------------------
 ## 📚 References
 - Stripe. 2025. *How to start a hair business*. [Online] Available at: https://stripe.com/resources/more/how-to-start-a-hair-business [Accessed 4 August 2026].
