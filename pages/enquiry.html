@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="wholesale, bulk order, stockist, partnership, collaboration, business enquiry, South Africa">
     <meta name="description" content="Enquire about wholesale, stockist, and partnership opportunities.">
 <title>Enquire — Sine's Root & Care</title>
@@ -28,43 +28,46 @@
         </nav>
     </header>
     <main>
-        <section class="page-intro">
-            <h2>Frequently Asked Questions</h2>
-            <p>Find answers to common questions about our products and services.</p>
-        </section>
+        
 <section class="faqs-section">
     <h2>Frequently Asked Questions</h2>
 
     <div class="faq-container">
         <!-- FAQ 1 -->
         <div class="faq-card">
-            <h3> Are your products 100% natural?</h3>
+            <h3 class="faq-header"> Are your products 100% natural?</h3>
+            <div class="faq-content">
             <p>Yes! Every product is handcrafted with pure, organic, African-sourced ingredients. We never use sulfates, parabens, mineral oil, or synthetic fragrances.</p>
         </div>
-
+</div>
         <!-- FAQ 2 -->
         <div class="faq-card">
-            <h3>Can children use these products?</h3>
+            <h3 class="faq-header">Can children use these products?</h3>
+            <div class="faq-content">
             <p>Absolutely — our gentle formulas are suitable for the whole family. For very young children, we recommend a patch test on a small area first.</p>
         </div>
-
+</div>
         <!-- FAQ 3 -->
         <div class="faq-card">
-            <h3>How long until I see results?</h3>
+            <h3 class="faq-header">How long until I see results?</h3>
+            <div class="faq-content">
             <p>Healthy hair takes time! Most people notice softer, stronger, shinier hair within 2–4 weeks. Consistent use shows best results — give it 6–8 weeks for visible growth.</p>
         </div>
-
+</div>
         <!-- FAQ 4 -->
         <div class="faq-card">
-            <h3>Do you deliver across South Africa?</h3>
+            <h3 class="faq-header">Do you deliver across South Africa?</h3>
+            <div class="faq-content">
             <p>Yes! We deliver nationwide. Orders take 3–5 working days to arrive, and you’ll get a tracking number to follow your package.</p>
         </div>
-
+</div>
         <!-- FAQ 5 -->
         <div class="faq-card">
-            <h3>I have a specific question — how do I ask?</h3>
+            <h3 class="faq-header">I have a specific question — how do I ask?</h3>
+            <div class="faq-content">
             <p>Use the form below! We reply to every message personally within 24–48 hours.</p>
         </div>
+    </div>
     </div>
 </section>
 
@@ -120,6 +123,14 @@ document.getElementById('enquiryForm').addEventListener('submit', e => {
   msgBox.style.background = "#e9ffe9";
   msgBox.style.display = "block";
   document.getElementById('enquiryForm').reset();
+});
+</script>
+<script>
+// FAQ Accordion
+document.querySelectorAll('.faq-header').forEach(header => {
+    header.addEventListener('click', function() {
+        this.nextElementSibling.classList.toggle('show');
+    });
 });
 </script>
 </body>
