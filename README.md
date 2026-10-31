@@ -137,4 +137,5 @@ This website is for **Sine's Root & Care**, a locally owned natural hair care br
 - MDN Web Docs. *File Paths*. Available at: https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks [Accessed 4 Oct 2026].
 - GitHub Docs. *About READMEs*. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes [Accessed 4 Oct 2026].
 - IIE. WEDE5020 — Web Development Introduction Study Guide.
-
+- Leaflet. (2023). Leaflet JavaScript library (Version 1.9.4). Retrieved 31 Oct 2026, from https://unpkg.com/leaflet@1.9.4/dist/leaflet.js
+- OpenStreetMap. (n.d.). Tile layer. Retrieved 31 Oct 2026, from https://www.openstreetmap.org
